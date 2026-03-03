@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apply to Path Sala — fill out the admission form to begin your journey in BBA, BCA, MBA, and more.">
+    <title>Admission — Path Sala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Path<span>Sala</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1>Admission</h1>
+        <p>Take the first step towards your future</p>
+    </section>
+
+    <!-- Admission Form -->
+    <section class="admission-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">Apply Now</span>
+                <h2>Admission Form</h2>
+                <p>Fill in your details below and our team will get back to you shortly.</p>
+            </div>
+            <div class="form-container fade-in">
+                <div id="formContent">
+                    <form id="admissionForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Select Course</label>
+                            <select id="course" required>
+                                <option value="" disabled selected>Select Course</option>
+                                <option value="BBA">BBA — Bachelor of Business Administration</option>
+                                <option value="BCA">BCA — Bachelor of Computer Applications</option>
+                                <option value="MBA">MBA — Master of Business Administration</option>
+                                <option value="CS">Computer Science</option>
+                                <option value="DM">Digital Marketing</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" placeholder="Any additional information..."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit-btn">Submit Application →</button>
+                    </form>
+                </div>
+                <div id="formSuccess" class="form-success">
+                    <span class="check">✅</span>
+                    <h3>Application Submitted!</h3>
+                    <p>Thank you for applying to Path Sala. Our admissions team will contact you within 48 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Path<span>Sala</span></div>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <p class="copyright">© 2026 Path Sala | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
